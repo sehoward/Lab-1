@@ -1,0 +1,66 @@
+html {
+
+	padding: 0px;
+	margin: 0px
+}
+
+
+body {
+
+	padding: 0px;
+	margin: 0px
+
+}
+
+head 
+{
+	height: 60px;
+	padding-top: 20px;
+	padding-left: 20px;
+	padding-bottom:20px;
+	padding-right: 20px;
+	background-color: #8A2BE2;
+	float: left;
+	line-height: 60px
+
+}
+
+h1{
+
+	float: left;
+	margin: 0px
+
+}
+
+ul{
+
+	float: right;
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+a: link{
+	text-decoration: none;
+	color: #000000
+}
+
+div: content  {
+	width: 70%;
+	float:left;
+	background-color: #808080;
+	min-height: 500px
+
+}
+
+div: sidebar{
+
+	width: 30%;
+	float: left;
+	background-color: #696969;
+	min-height: 500px;
+	margin: 20px
+
+
+
+}
