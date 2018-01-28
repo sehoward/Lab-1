@@ -1,66 +1,77 @@
-html {
+
+html{
 
 	padding: 0px;
 	margin: 0px
 }
+
 
 
 body {
 
 	padding: 0px;
-	margin: 0px
+	margin: 0px;
+	background-color: #8f8e8e;
 
 }
 
-head 
+
+.header 
 {
 	height: 60px;
-	padding-top: 20px;
-	padding-left: 20px;
-	padding-bottom:20px;
-	padding-right: 20px;
-	background-color: #8A2BE2;
-	float: left;
-	line-height: 60px
-
+	padding:20px;
+	background-color: rgb(89, 28, 146);
 }
 
 h1{
 
 	float: left;
-	margin: 0px
+	margin: 0px;
+	background-color: rgb(89, 28, 146);
 
 }
+
 
 ul{
-
+	list-style-type:none;
+	margin: 0;
+	padding: 0;
 	float: right;
-	list-style-type: none;
-    margin: 0;
-    padding: 0;
+	text-decoration: none;
+
 }
 
-a: link{
+
+li{
+	margin-left: 20px;
+	float: left;
+	text-decoration: none
+}
+
+a{
 	text-decoration: none;
 	color: #000000
 }
 
-div: content  {
+
+.content{
 	width: 70%;
 	float:left;
-	background-color: #808080;
-	min-height: 500px
+	background-color: #8f8e8e;
+	min-height: 500px;
+
 
 }
 
-div: sidebar{
+.sidebar{
 
 	width: 30%;
 	float: left;
-	background-color: #696969;
+	background-color: #4b4848;
 	min-height: 500px;
+	color: white
+
+}
+p{
 	margin: 20px
-
-
-
 }
